@@ -42,6 +42,8 @@ function calculaTempo(tempoObjetivo) {
     " segundos"
   );
 }
+
+const tempoObjetivo1 = new Date("2026-11-08T00:00:00");
 const tempoObjetivo2 = new Date("2026-11-01T00:00:00");
 const tempoObjetivo3 = new Date("2026-12-18T00:00:00");
 const tempoObjetivo4 = new Date("2027-02-01T00:00:00");
