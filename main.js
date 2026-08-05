@@ -14,9 +14,9 @@ for (let i = 0; i < botoes.length; i++) {
 }
 
 const tempos = [
-    new Date("2026-11-8T00:00:00"),
+    new Date("2026-11-08T00:00:00"),
     new Date("2026-12-18T00:00:00"),
-    new Date("2026-12-2T00:00:00"),
+    new Date("2026-12-02T00:00:00"),
     new Date("2027-02-15T00:00:00")
 ];
 
@@ -56,3 +56,5 @@ function atualizaCronometro() {
 
 atualizaCronometro();
 setInterval(atualizaCronometro, 1000);
+
+
